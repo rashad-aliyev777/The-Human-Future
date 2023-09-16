@@ -1,0 +1,44 @@
+@import url(../../css/rengler.css);
+
+.service_section_altinci {
+    background-image: url(../../../assets/images/services_hissesi/service_section_alti/arxaPlandaAy.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    opacity: .9.5;
+}
+.service_section_altinci h2 {
+    color: var(--ag-reng);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-right: 20px;
+    width: 35%;
+    
+}
+.service_section_altinci p {
+    color: var(--ag-reng);
+    font-size: 25px;
+    font-weight: 400;
+    max-width: 523px;
+}
+
+.tablica {
+    display: flex;
+    width: 50%;
+    max-width: 520px;
+}
+.tablica td {
+    color: var(--ag-reng);
+    border-bottom: 1px solid var(--boz-reng);
+    padding: 20px 0;
+    font-weight: 700;
+}
+.tablica span {
+    color: var(--boz-reng);
+}

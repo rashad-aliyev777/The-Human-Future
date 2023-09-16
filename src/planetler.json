@@ -1,0 +1,37 @@
+[
+    {
+        "adi" : "Kepler-62 F",
+        "metni" : "Kepler-62 f is a super Earth exoplanet that orbits a K-type star.  Its mass is 35 Earths, it takes 267.3 days to complete one orbit of its star, and is 0.718 AU from its star. Its discovery was announced in 2013.",
+        "planetin_sekili": "https://res.cloudinary.com/do88jgq2l/image/upload/v1693658580/PIA17001_txf2pf.png"
+    },
+    {
+        "adi" : "Traplist-1d",
+        "metni" : "TRAPPIST-1d, the system's third planet, is potentially located in the habitable zone, the region where liquid water is most likely to be present, as shown in this visualization. The planet's orbital period, or “year,” is equal to 4.04 Earth days. TRAPPIST-1d is slightly smaller and less massive than Earth.",
+        "planetin_sekili": "https://res.cloudinary.com/do88jgq2l/image/upload/v1693657702/TRAPPIST-1d_artist_impression_2018_ttrbqj.png"
+    },
+    {
+        "adi" : "Teegarden B",
+        "metni" : "Teegarden's Star b is a super Earth exoplanet that orbits an M-type star.  Its mass is 1.05 Earths, it takes 4.9 days to complete one orbit of its star, and is 0.0252 AU from its star.",
+        "planetin_sekili": "https://res.cloudinary.com/do88jgq2l/image/upload/v1693658918/dezqi65-32ab7d55-996d-4736-99dd-8a4e997f3d41_dajrwb.png"
+    },
+    {
+        "adi" : "K2-18b",
+        "metni" : "K2-18 b is a super Earth exoplanet that orbits an M-type star. Its mass is 8.92 Earths, it takes 32.9 days to complete one orbit of its star, and is 0.1429 AU from its star.  Its discovery was announced in 2015.",
+        "planetin_sekili": "https://res.cloudinary.com/do88jgq2l/image/upload/v1693658444/k2-18b_fthpit.png"
+    },
+    {
+        "adi" : "Gj 357 d",
+        "metni" : "GJ 357 d is a Neptune-like exoplanet that orbits an M-type star. Its mass is 6.1 Earths, it takes 55.7 days to complete one orbit of its star, and is 0.204 AU from its star.",
+        "planetin_sekili": "https://res.cloudinary.com/do88jgq2l/image/upload/v1693658032/GJ357d_4K_still_nnxhnv.png"
+    },
+    {
+        "adi" : "Wise 0855-0714",
+        "metni" : "Sub-brown dwarf WISE 0855-0714 is located 7 light years away from the Sun. It is a single star of spectral class Y2, that has 1 % of solar mass. For now, there are no known exoplanets in this star system.",
+        "planetin_sekili": "https://res.cloudinary.com/do88jgq2l/image/upload/v1693657961/planet9-nasa750_kqmffi.png"
+    },
+    {
+        "adi": "Titan",
+        "metni": "Saturn's largest moon, Titan, is an icy world whose surface is completely obscured by a golden hazy atmosphere. Titan is the second largest moon in our solar system. Only Jupiter's moon Ganymede is larger, by just 2 percent. Titan is bigger than Earth's moon, and larger than even the planet Mercury." ,
+        "planetin_sekili": "https://res.cloudinary.com/do88jgq2l/image/upload/v1693657464/titan_kioam0.png"
+    }
+]

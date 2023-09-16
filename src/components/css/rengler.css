@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+    --ag-reng : #fff;
+    --qara-reng: #000;
+    --boz-reng: #aaa;
+    --bir-az-qara: #141414;
+    --badimcan-rengi: #7F00EF;
+    --bozun-acigi: #d3d3d3;
+    --sari-reng: yellow;
+    --badimcan-tund : #030013 ;
+    --table-ucun:rgba(255,255,255,.3);
+}

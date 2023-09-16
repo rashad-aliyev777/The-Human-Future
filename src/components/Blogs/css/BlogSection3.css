@@ -1,0 +1,40 @@
+@import url(../../css/rengler.css);
+
+.blog_section_uc {
+    background-image: url(../../../assets/images/blog-section/blog-section-uc/elon.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+.elon_musk_sitat {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 85vh;
+}
+.elon_musk_sitat h3 {
+    color: var(--bozun-acigi);
+    font-weight: 700;
+    font-size: 25px;
+    max-width: 40% ;
+    padding-left: 25px;
+} 
+
+/* Media */
+
+@media(max-width:576px) {
+    .elon_musk_sitat h3{
+        max-width: 60%;
+        font-size: 22px;
+    }
+}
+@media(max-width:320px) {
+    .elon_musk_sitat h3 {
+        max-width: 70%;
+        font-size: 20px;
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,170 @@
+@import url(./rengler.css);
+
+/* overlay */
+.overlay_menu {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    position: fixed;
+    width: 0;
+    z-index: 9999;
+    overflow-x: hidden;
+    transition: all 0.8s ease;
+}
+.overlay_menu.active {
+    width: 100%;
+}
+
+.overlay_menu a {
+    color: var(--boz-reng);
+    margin-top: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    transition: all 0.6s ease;
+}
+.overlay_menu a:hover {
+    color: var(--ag-reng);
+    transform: translateX(15px);
+}
+.x_iconu {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 35px;
+    color: var(--ag-reng);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.nav_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+/* header */
+.header {
+    background-color: var(--bir-az-qara);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-sol {
+    padding: 13px 20px;
+}
+
+.logo-sol img {
+    width: 50px;
+}
+
+.linkler {
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 13px 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+    background: rgba(255,255,255,.02);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.linkler:hover {
+    box-shadow: 0 0 15px 5px rgba(172, 129, 212, 0.8), 0 0 10px 0px rgba(87, 5, 119, 0.8);
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--ag-reng);
+    margin: 0 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+
+.header a:hover {
+    color: var(--badimcan-rengi);
+}
+
+.header-buttonlar {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+.fa-bars {
+    display: none;
+}
+
+
+
+
+@media (max-width:1280px) {
+    .linkler {
+        padding: 0;
+    }
+    .linkler a {
+        margin: 10px;
+    }
+    .header-buttonlar button {
+        padding: 10px 15px;
+    }
+}
+@media (max-width:991px) {
+    .logo-sol img {
+        display: none;
+    }
+    .linkler {
+        left: 28%;
+        transform: translateX(-38%);
+    }
+}
+@media (max-width:834px) {
+    .linkler {
+        top: 10px;
+        padding: 10px;
+        transform: translateX(-39%);
+    }
+    .linkler a {
+        margin: 4px;
+    }
+}
+@media (max-width:768px) {
+    .linkler {
+        display: none;
+    }
+    .logo-sol {
+        display: none;
+    }
+    .header-buttonlar {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .header-buttonlar button {
+        padding: 17px;
+    }
+    .fa-bars::before {
+        content: none;
+    }
+    
+    .fa-bars {
+        display: block;
+        padding: 25px;
+        font-size: 25px;
+        color: var(--ag-reng);
+        cursor: pointer;
+        background-color: transparent;
+        transition: all 0.5s ease;
+        border: none;
+    }
+    .fa-bars:hover {
+        transform: scale(1.1);
+    }
+}

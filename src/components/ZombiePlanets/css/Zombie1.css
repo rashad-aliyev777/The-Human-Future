@@ -1,0 +1,22 @@
+@import url(../../css/rengler.css);
+
+.zombie_lap_birinci{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+.zombie_lap_birinci video {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  opacity: .9;
+  filter: contrast(1.1);
+}
+.zombie_lap_birinci h1 {
+    text-transform: uppercase;
+    font-size: 65px;
+    color: var(--boz-reng);
+    font-weight: 700 ;
+}

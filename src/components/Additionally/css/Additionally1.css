@@ -1,0 +1,30 @@
+@import url(../../css/rengler.css);
+
+.additionally_bir {
+   display: flex;
+   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+   opacity: .9;
+}
+.additionally_bir video {
+   width: 100%;
+   height: 94.5vh;
+   object-fit: cover;
+}
+.additionally_bir h1 {
+    color: var(--ag-reng);
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.typed {
+    position: absolute;
+    color: var(--ag-reng);
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 30%;
+    left: 35%;
+}

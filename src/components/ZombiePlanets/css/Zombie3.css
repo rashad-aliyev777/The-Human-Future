@@ -1,0 +1,39 @@
+@import url(../../css/rengler.css);
+
+.zombieee {
+    background: var(--qara-reng);
+}
+.zombii_iki_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.zombieee_qara_sol   {
+    padding: 50px 50px;
+}
+.zombieee_sag_yazilar {
+    color: var(--ag-reng);
+    padding: 50px 50px;
+    text-align: center;
+    
+}
+.zombieee_sag_yazilar h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--ag-reng);
+
+}
+.zombieee_sag_yazilar p {
+    font-size: 22px;
+    color: var(--ag-reng);
+    border-bottom: 1px solid var(--badimcan-rengi);
+    margin-bottom: 5px;
+    border-radius: 15px ;
+}
+.zombieee_sag_yazilar span {
+    color: var(--boz-reng);
+    margin-left: 10px;
+}

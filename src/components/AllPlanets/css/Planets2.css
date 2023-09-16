@@ -1,0 +1,50 @@
+@import url(../../css//rengler.css);
+
+
+.planetsss {
+    background-color: var(--qara-reng);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.saturn_melumat {
+    flex-basis: 50%;
+}
+.saturn_melumat img {
+    width: 100%;
+    height: 100%;
+}
+.saturn_yazilar {
+    flex: 1;
+}
+.saturn_yazilar h1 {
+    color: var(--ag-reng);
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+}
+.saturn_yazilar p {
+    color: var(--bozun-acigi);
+    font-size: 25px;
+    font-weight: 400;
+}
+.saturn_yazilar table {
+    width: 100%;
+    margin-top: 30px;
+}
+.saturn_yazilar td {
+    color: var(--ag-reng);
+    padding: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid var(--table-ucun);
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition:box-shadow 0.5s ease ;
+}
+.saturn_yazilar td:hover {
+    box-shadow: 0 0 20px 5px #bbbbbb;
+    border-radius: 15px;
+    background: linear-gradient(to right, #2b5876, #4e4376);
+}

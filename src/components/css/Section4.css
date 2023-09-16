@@ -1,0 +1,60 @@
+@import url(./rengler.css);
+
+.kosmonavt {
+    background-color: var(--qara-reng);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kosmonavt-sol {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.kosmonavt-sol .astronaut {
+    color: var(--bozun-acigi);
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.kosmonavt-sol p {
+    color: var(--bozun-acigi);
+    text-align: center;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px; 
+}
+
+.kosmonavt-sag{
+    padding: 20px 50px;
+}
+
+.glitch-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+.glitch-image:hover {
+    transform: translateX(5px);
+  }
+
+@media(max-width:991px) {
+    .kosmonavt-sol {
+        width: 100%;
+    }
+    .astronaut {
+        margin-top: 10px;
+    }
+    .kosmonavt-sol p {
+        padding: 10px;
+    }
+    .kosmonavt-sag{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,112 @@
+@import url(../../css/rengler.css);
+
+.mars {
+    background: var(--qara-reng);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.mars-sol {
+    width: 505px;
+    height: 503px;
+}
+.mars-sol img {
+    width: 100%;
+    height: 100%;
+}
+.mars-sag {
+    width: 50%;
+    padding-right: 35px;
+}
+.mars-sag h2 {
+    color: var(--ag-reng);
+    font-weight: 700;
+    margin: auto;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.mars-sag p {
+    color: var(--boz-reng);
+    font-size: 20px;
+    font-weight: 400;
+}
+.mars-sag table {
+    width: 100%;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.mars-sag td {
+    color: var(--ag-reng);
+    border-bottom: 2px solid rgba(255,255,255,.3);
+    padding: 20px;
+    font-weight: 400;
+}
+.mars-sag span {
+    color: var(--boz-reng);
+    font-weight: 400;
+}
+
+/* Media */
+
+@media(max-width:991px) {
+    .mars-sol img {
+        height: 90%;
+    }
+}
+@media(max-width:800px) {
+    .mars {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mars-sag p {
+        margin: 0;
+    }
+    .mars-sag table {
+        margin-top: 0;
+    }
+}
+@media(max-width:768px) {
+    .mars {
+        height: 100%;
+    }
+    .mars-sag {
+       padding-bottom: 70px;
+       padding-left: 30px;
+    }
+    .mars-sol img {
+        height: 100%;
+    }
+
+}
+@media(max-width:576px) {
+    .mars {
+        height: 100%;
+    }
+    .mars-sol {
+        display: none;
+    }
+    .mars-sag {
+        width: 100%;
+        padding: 0;
+    }
+    .mars-sag p {
+        font-size: 20px;
+    }
+}
+@media(max-width:360px) {
+    .mars-sag {
+        width: 100%;
+       padding-top: 10px;
+
+    }
+    .mars-sag h2 {
+        font-size: 30px;
+    }
+    .mars-sag p {
+        padding: 10px 20px;
+    }
+}

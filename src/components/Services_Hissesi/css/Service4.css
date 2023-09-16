@@ -1,0 +1,49 @@
+@import url(../../css/rengler.css);
+
+.service_section_dorduncu {
+    background-image: url(../../../assets/images/services_hissesi/service_section_dord/ay.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.service_section_dorduncu h1 {
+    color: var(--ag-reng);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+}
+.service_section_dorduncu p {
+    color: var(--ag-reng);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+@media(max-width:428px) {
+    .service_section_dorduncu h1{
+        font-size:36px ;
+    }
+    .service_section_dorduncu p {
+        font-size: 17px;
+    }
+}
+@media(max-width:360px) {
+    .service_section_dorduncu h1{
+        font-size:33px ;
+    }
+    .service_section_dorduncu p {
+        font-size: 15px;
+    }
+}
+@media(max-width:320px) {
+    .service_section_dorduncu p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,18 @@
+@import url(../../css/rengler.css);
+
+.service_section_besinci {
+    background-image: url(../../../assets/images/services_hissesi/service_section_bes/aydaastronat.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.service_section_besinci p {
+    color: var(--ag-reng);
+    text-transform: uppercase;
+    font-weight: 540;
+    font-size: 25px;
+}

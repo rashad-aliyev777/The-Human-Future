@@ -1,0 +1,40 @@
+@import url(../../css/rengler.css);
+
+.additionalyy_swiper {
+  background-color: var(--badimcan-tund);
+  height: 100vh;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sviper_sol img {
+    max-width: 550px;
+}
+
+.sviper_sol {
+    display: block;
+    text-align: center;
+}
+.sviper_sag {
+    text-align: center;
+}
+.sviper_sag h1 {
+    color: var(--ag-reng);
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.sviper_sag p {
+    color: var(--ag-reng);
+    font-size: 25px;
+    font-weight: 450;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.planetlerin_clasi {
+    height: 300px;
+}

@@ -1,0 +1,92 @@
+@import url(../../css/rengler.css);
+
+.service_section_iki {
+    background-image: url(../../../assets/images/services_hissesi/service_section_iki/arxaTeref.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    opacity:.9
+}
+.service_section_sol {
+    width: 50%;
+    padding-left: 30px;
+}
+.service_section_sag {
+    width: 50%;
+    padding-right: 35px;
+}
+.service_section_sag h2 {
+    color: var(--ag-reng);
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.service_section_sag p {
+    color: var(--bozun-acigi);
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+@media(max-width:884px) {
+   
+    .service_section_sol img {
+        width: 400px;
+    }
+    .service_section_sag h2 {
+        font-size: 40px;
+    }
+    .service_section_sag p {
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
+        padding: 20px;
+    }
+}
+@media(max-width:834px) {
+    .service_section_sol {
+        padding-left: 10px;
+    }
+    .service_section_sag {
+        padding-right: 15px;
+    }
+}
+@media(max-width:800px) {
+    .service_section_iki  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service_section_sag {
+        padding-right: 0;
+    }
+}
+@media(max-width:768px) {
+    .service_section_sol {
+        display: none;
+    }
+}
+@media(max-width:576px) {
+
+    .service_section_sag {
+        width: 100%;
+    }
+    .service_section_sag h2 {
+        font-size: 35px;
+    }
+    .service_section_sag p {
+        font-size: 17px;
+    }
+}
+@media(max-width:320px) {
+    .service_section_sag h2 {
+        font-size: 30px;
+    }
+    .service_section_sag p {
+        font-size: 15px;
+    }
+}

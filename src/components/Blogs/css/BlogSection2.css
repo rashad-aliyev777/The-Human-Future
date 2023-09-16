@@ -1,0 +1,105 @@
+@import url(../../css/rengler.css);
+
+.blog_section_iki {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: var(--qara-reng);
+    margin-top: -5px;
+    padding: 80px 0;
+    height: 100vh;
+}
+.blog_section_iki_sol {
+    width: 50%;
+}
+.blog_section_iki_sol iframe {
+    border-radius: 20px;
+}
+
+.blog_section_iki_sol h1 {
+    color: var(--bozun-acigi);
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.blog_section_iki_sag {
+    width: 50%;
+    padding-right: 25px;
+}
+.blog_section_iki_sag h2 {
+    color: var(--bozun-acigi);
+    font-size: 40px;
+    font-weight: 700;
+}
+.blog_section_iki_sag h3 {
+    color: var(--bozun-acigi);
+    font-size: 40px;
+    font-weight: 700;
+    border: 1px solid;
+    border-radius: 10px;
+    border-width: 10px;
+    border-left: 50px;
+    border-right: 50px;
+    transition: all 0.5s ease;
+}
+.blog_section_iki_sag h3:hover {
+    border-color: rgb(21, 11, 109);
+    box-shadow: 0 0 30px #aaa;
+    transform: translateX(-108px);
+}
+
+/* Media */
+@media(max-width:1280px) {
+    .blog_section_iki_sag h3:hover {
+        transform: translateX(0);
+    }
+}
+@media(max-width:884px) {
+    .blog_section_iki {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .blog_section_iki_sol {
+        width: 100%;
+    }
+    .blog_section_iki_sag {
+        width: 80%;
+    }
+}
+@media(max-width:576px) {
+
+    .blog_section_iki_sol iframe {
+        width: 400px;
+    }
+    .blog_section_iki_sag {
+        padding-right: 0;
+    }
+}
+@media(max-width:375px) {
+    .blog_section_iki_sol iframe {
+        width: 350px;
+        margin-bottom: 40px;
+    }
+    .blog_section_iki_sag h2 {
+        font-size: 25px;
+    }
+}
+@media(max-width:320px) {
+    .blog_section_iki_sol iframe {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .blog_section_iki_sol h1 {
+        font-size: 17px;
+    }
+    .blog_section_iki_sag h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .blog_section_iki_sag h3 {
+        font-size: 20px;
+    }
+}

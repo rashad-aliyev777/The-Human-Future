@@ -1,0 +1,45 @@
+@import url(../../css/rengler.css);
+
+.additionally_dorduncu_iki_planet {
+    height: 100vh;
+    background: var(--qara-reng);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.additionally_dorduncu_iki_planet img {
+    height: 65%;
+}
+.additionally_dorduncu_iki_planet h2 {
+    text-transform: uppercase;
+    color: var(--bozun-acigi);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+}
+.dorduncu_sol_e {
+    height: 100vh;
+}
+.dorduncu_orta {
+    display: flex;
+}
+.orta_e {
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+.orta_e:hover {
+    box-shadow: 0 0 20px 5px var(--badimcan-rengi);
+}
+.dorduncu_orta p {
+    color: var(--boz-reng);
+    font-size: 25px;
+    font-weight: 450;
+}
+.dorduncu_sag_e {
+    height: 100vh;
+}

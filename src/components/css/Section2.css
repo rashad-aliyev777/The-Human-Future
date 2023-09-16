@@ -1,0 +1,66 @@
+@import url(./rengler.css);
+
+.ikinci-section {
+    background: var(--badimcan-tund);
+    margin-top: -26px;
+    padding-bottom: 50px;
+}
+
+.ikinci-section h2 {
+    text-align: center;
+    color: var(--ag-reng);
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.kard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px auto ;
+    width: 800px;
+}
+.kard i {
+    color: var(--ag-reng);
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+.kard i:hover {
+    color: #d6de12;
+}
+.section-api {
+    flex:1 0 250px;
+    border: 1px solid rgba(255,255,255,0.4) ;
+    border-radius: 20px;
+    margin: 5px;
+    transition: all 0.4s ease;
+}
+.section-api:hover {
+    box-shadow: 0 0 15px 5px rgba(172, 129, 212, 0.8), 0 0 10px 0px rgba(87, 5, 119, 0.8);
+}
+.section-api h3 {
+    color: var(--ag-reng);
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    transition: all 1s ease;
+}
+.section-api h3:hover{
+    transform: rotateY(360deg);
+}
+.section-api p {
+    color: var(--boz-reng);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 5px;
+}
+
+@media(max-width:768px) {
+    .kard {
+        width: auto;
+    }
+}

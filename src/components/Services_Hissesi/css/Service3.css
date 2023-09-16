@@ -1,0 +1,69 @@
+@import url(../../css/rengler.css);
+
+.service_section_uc  {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8));
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 88vh;
+}
+.service_section_uc video {
+    max-width: 100%;
+    height: auto;
+    opacity:.8;
+}
+.orbit_space {
+    position: absolute;
+    bottom: 15%;
+    left: 80px;
+    width: 50%;
+    max-width: 520px;
+}
+.orbit_space h2 {
+    text-transform: uppercase;
+    color: var(--ag-reng);
+    font-size: 48px;
+    font-weight: 700;
+}
+.orbit_space p {
+    color: var(--ag-reng);
+    font-size: 20px;
+    font-family: D-DIN-Regular;
+    font-weight: 400;
+}
+@media(max-width:1280px) {
+    .service_section_uc {
+        height: 67vh;
+    }
+}
+@media(max-width:884px) {
+    .service_section_uc {
+        height: auto;
+    }
+    .orbit_space {
+     bottom: 0;
+    }
+    
+}
+@media(max-width:820px) {
+    .orbit_space h2 {
+        font-size: 40px;
+    }
+}
+@media(max-width:768px) {
+    .orbit_space {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        left: 120px;
+        bottom: 20px;
+    }
+}
+@media(max-width:576px) {
+    .service_section_uc  {
+        display: none;
+    }
+}

@@ -1,0 +1,29 @@
+@import url(../../css//rengler.css);
+
+.planetss {
+    background-image: url('../../../assets/images/planets/dunya.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sekiller_eyni {
+    width: 100%;
+    height: 150%;
+}
+@media(max-width:884px) {
+    .planetss {
+       display: flex;
+       flex-wrap: wrap;
+    }
+}
+@media(max-width:768px) {
+    .planetss {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}

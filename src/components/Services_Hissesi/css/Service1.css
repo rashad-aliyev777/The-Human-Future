@@ -1,0 +1,61 @@
+@import url(../../css/rengler.css);
+
+.service_section_bir {
+    background-image: url(../../../assets/images/services_hissesi/service_section_bir/falcon.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service_section_bir h2 {
+    color: var(--ag-reng);
+    font-weight: 700;
+    font-size: 55px;
+}
+.service_section_bir p {
+    color: var(--boz-reng);
+    font-weight: 400;
+    font-size: 20px;
+    width: 65%;
+    letter-spacing: 2px;
+}
+
+@media(max-width:834px) {
+    .service_section_bir p {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+@media(max-width:768px) {
+    .service_section_bir h2 {
+        font-size: 50px;
+    }
+    .service_section_bir p {
+        padding: 0;
+    }
+}
+@media(max-width:576px) {
+    .service_section_bir h2 {
+        font-size: 37px;
+    }
+    .service_section_bir p {
+        font-size: 14px;
+    }
+}
+@media(max-width:390px) {
+    .service_section_bir h2 {
+        font-size: 35px;
+    }
+}
+@media(max-width:320px) {
+    .service_section_bir h2 {
+        font-size: 27px;
+    }
+    .service_section_bir p {
+        font-size: 14px;
+    }
+}

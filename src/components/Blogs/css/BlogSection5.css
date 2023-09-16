@@ -1,0 +1,55 @@
+@import url(../../css/rengler.css);
+
+.besinci_blog {
+    background-image: url(../../../assets/images/blog-section/blog-section-bes/mars_iki.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.besinci_blog h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--ag-reng);
+    font-size: 110px;
+    margin: 10px;
+}
+.besinci_blog p {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--ag-reng);
+    font-size: 22px;
+}
+
+/* Media  */
+
+@media(max-width:991px) {
+    .besinci_blog h1 {
+        font-size: 100px;
+    }
+}
+@media(max-width:835px) {
+    .besinci_blog h1 {
+        font-size: 70px;
+    }
+}
+@media(max-width:576px) {
+    .besinci_blog h1 {
+        font-size: 40px;
+    }
+    .besinci_blog p {
+        font-size: 15px;
+    }
+}
+@media(max-width:390px) {
+    .besinci_blog h1 {
+        font-size: 30px;
+    }
+    .besinci_blog p {
+        font-size: 12px;
+    }
+}
