@@ -43,3 +43,50 @@
 .dorduncu_sag_e {
     height: 100vh;
 }
+
+@media(max-width:1280px) {
+    .additionally_dorduncu_iki_planet img {
+        height: 50%;
+    }
+}
+@media(max-width:1280px) {
+    .additionally_dorduncu_iki_planet img {
+        height: 40%;
+    }
+    
+}
+@media(max-width:991px) {
+    .additionally_dorduncu_iki_planet {
+        display: flex;
+        flex-direction: column;
+    }
+    .additionally_dorduncu_iki_planet img {
+        height: 23vh;
+    }
+    .dorduncu_orta p {
+        color: var(--boz-reng);
+        font-size: 20px;
+        font-weight: 450;
+    }
+}
+@media(max-width:768px)  {
+    .additionally_dorduncu_iki_planet img {
+        height: 22vh;
+    }
+    .additionally_dorduncu_iki_planet h2 {
+        font-size: 30px;
+        margin: 5px 0;
+    }
+}
+@media(max-width:576px) {
+    .dorduncu_sol_e,.dorduncu_sag_e  {
+        display: none;
+    }
+}
+@media(max-width:320px) {
+    .dorduncu_orta p {
+        color: var(--boz-reng);
+        font-size: 16px;
+        font-weight: 450;
+    }
+}

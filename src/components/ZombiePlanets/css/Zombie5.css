@@ -27,3 +27,29 @@
     color: var(--bozun-acigi);
     font-weight: 500;
 }
+
+@media(max-width:884px) {
+    .zombii_yazii {
+        padding: 0;
+    }
+    .zombii_bess {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:576px) {
+    .zombii_yazii h1 {
+        margin: 0;
+    }
+    .zombii_yazii p {
+        font-size: 23px;
+    }
+}
+@media(max-width:320px) {
+    .zombii_yazii h1 {
+        font-size: 40px;
+    }
+    .zombii_yazii p {
+        font-size: 20px;
+    }
+}

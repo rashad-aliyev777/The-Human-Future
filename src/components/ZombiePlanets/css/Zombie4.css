@@ -124,7 +124,7 @@
     position: absolute;
     border: 1px solid var(--bozun-acigi);
     border-radius: 15px;
-    background: var(--badimcan-tund);
+    background: linear-gradient(to right, #41295a, #2f0743);
     box-shadow: 0 0 20px 5px var(--ag-reng);
     padding: 10px;
   }
@@ -141,4 +141,33 @@
     text-align: center;
     font-size: 25px;
     letter-spacing: 1px;
+  }
+
+  @media(max-width:576px) {
+    .supernovvva_orta {
+      padding: 0;
+    }
+    .supernovvva_orta h1 {
+      font-size: 35px;
+    }
+    .supernovvva_orta p {
+      font-size: 20px;
+    }
+  }
+  @media(max-width:360px) {
+    .supernovvva_orta h1 {
+      font-size: 30px;
+    }
+    .supernovvva_orta p {
+      font-size: 17px;
+    }
+  }
+  @media(max-width:320px) {
+    .supernovvva_orta h1 {
+      font-size: 23px;
+      margin: 2px;
+    }
+    .supernovvva_orta p {
+      font-size: 13px;
+    }
   }

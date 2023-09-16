@@ -32,8 +32,35 @@
     border-bottom: 1px solid var(--badimcan-rengi);
     margin-bottom: 5px;
     border-radius: 15px ;
+    transition: backgorund 0.8s ease;
+}
+.zombieee_sag_yazilar p:hover {
+    background: linear-gradient(to right, #7f00ff, #e100ff); 
 }
 .zombieee_sag_yazilar span {
-    color: var(--boz-reng);
+    color: var(--bozun-acigi);
     margin-left: 10px;
+}
+
+@media(max-width:1114px) {
+    .zombieee_sag_yazilar {
+        padding: 20px 5px;
+    }
+}
+
+@media(max-width:991px) {
+    .zombii_iki_div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .zombieee_qara_sol {
+        display: none;
+    }
+    
+}
+@media(max-width:390px) {
+    .zombieee_sag_yazilar h2 {
+        margin: 0;
+    }
 }

@@ -165,7 +165,7 @@
     width: 35%;
   }
   .google {
-    margin-left:-6% !important ;
+    margin: 0 !important;
   }
 }
 @media(max-width:1114px) {
@@ -243,10 +243,13 @@
   .social-platforms li:nth-child(3),.social-platforms li:nth-child(4) {
     margin-top: 30px;
   }
+  .google {
+    margin: 0 30px !important;
+  }
 }
 @media(max-width:320px) {
   .social-platforms {
-    margin-top: 80px;
+    margin: 80px -5px;
   }
   .social-platforms li:nth-child(2) {
     margin-top: 20px;

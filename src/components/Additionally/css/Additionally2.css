@@ -33,3 +33,27 @@
         box-shadow: 0 0 20px 5px var(--badimcan-rengi);
     }
 }
+
+@media(max-width:1114px) {
+    .additional_yazilar h1 {
+        font-size:60px ;
+    }
+}
+@media(max-width:884px) {
+    .additionally_two {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-color: var(--qara-reng);
+    }
+}
+@media(max-width:390px) {
+    .additional_yazilar h1 {
+        font-size:40px ;
+    }
+}
+@media(max-width:320px) {
+    .swiper-slide {
+        margin-right: 0;
+    }
+}

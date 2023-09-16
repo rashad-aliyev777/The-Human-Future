@@ -19,7 +19,7 @@ const Planets1 = () => {
   return (
     
     <div className="planetss">
-        <PlanetsCard className='sekiller_eyni' planetlerinSekili={saturnCard} paraqrafinIicindekiYazi="Saturn" />
+        <PlanetsCard className='sekiller_eyni kart' planetlerinSekili={saturnCard} paraqrafinIicindekiYazi="Saturn" />
         <PlanetsCard planetlerinSekili={yupiterCard} paraqrafinIicindekiYazi="Yupiter" />
         <PlanetsCard planetlerinSekili={mercuryCard} paraqrafinIicindekiYazi="Mercury" />
         <PlanetsCard planetlerinSekili={veneraCard} paraqrafinIicindekiYazi="Venera" />

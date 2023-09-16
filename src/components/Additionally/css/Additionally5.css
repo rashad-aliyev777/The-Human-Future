@@ -14,3 +14,29 @@
     text-transform: uppercase;
     font-size: 60px;
 }
+
+@media(max-width:1280px) {
+    .additionally_bess h2 {
+        font-size: 40px;
+    }
+}
+@media(max-width:884px) {
+    .additionally_bess h2 {
+        font-size: 30px;
+    }
+}
+@media(max-width:576px) {
+    .additionally_bess h2 {
+        font-size: 15px;
+    }
+}
+@media(max-width:360px) {
+    .additionally_bess h2 {
+        font-size: 14px;
+    }
+}
+@media(max-width:320px) {
+    .additionally_bess h2 {
+        font-size: 12px;
+    }
+}

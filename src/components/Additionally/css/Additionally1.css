@@ -10,15 +10,6 @@
    height: 94.5vh;
    object-fit: cover;
 }
-.additionally_bir h1 {
-    color: var(--ag-reng);
-    font-size: 70px;
-    font-weight: 700;
-    text-transform: uppercase;
-    position: absolute;
-    top: 30%;
-    left: 35%;
-}
 .typed {
     position: absolute;
     color: var(--ag-reng);
@@ -27,4 +18,26 @@
     text-transform: uppercase;
     top: 30%;
     left: 35%;
+}
+
+@media(max-width:991px) {
+    .typed {
+        left: 20%;
+    }
+}
+@media(max-width:576px) {
+    .typed {
+        font-size: 40px;
+    }
+}
+@media(max-width:390px) {
+    .typed {
+        left: 15%;
+    }
+}
+@media(max-width:320px) {
+    .typed {
+        left: 13%;
+        font-size: 35px;
+    }
 }

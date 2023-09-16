@@ -2,15 +2,17 @@ import React from 'react'
 
 import './css/Planets7.css'
 import neptune from '../../assets/images/planets/neptun.png'
+import Aos from 'aos'
 
 const Planets7 = () => {
+  Aos.init();
   return (
     <div className='neptun'>
-        <div className="neptun_sol">
+        <div className="neptun_sol" data-aos="zoom-in-right">
         <img src={neptune} alt="Planets" />
         </div>
 
-        <div className="neptun_sag">
+        <div className="neptun_sag" data-aos="zoom-in-left">
             <h1>Neptune</h1>
             <p>Neptune is the eighth and farthest planet from the Sun in the Solar System. Its mass exceeds the mass of the Earth by 17.2 times and is the third among the planets of the solar system, and in terms of equatorial diameter Neptune ranks fourth, surpassing the Earth by 3.9 times. The planet is named after Neptune, the Roman god of the seas.</p>
             <table>

@@ -38,3 +38,9 @@
 .planetlerin_clasi {
     height: 300px;
 }
+
+@media(max-width:390px) {
+    .sviper_sol img {
+        display: none;
+    }
+}

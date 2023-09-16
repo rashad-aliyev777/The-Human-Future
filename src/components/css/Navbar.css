@@ -123,12 +123,24 @@
         left: 28%;
         transform: translateX(-38%);
     }
+    .linkler a {
+        margin: 9px;
+    }
 }
 @media (max-width:834px) {
     .linkler {
         top: 10px;
         padding: 10px;
         transform: translateX(-39%);
+    }
+    .linkler a {
+        margin: 4px;
+    }
+}
+@media (max-width:800px) {
+    .linkler {
+        top: 15px;
+        padding: 5px;
     }
     .linkler a {
         margin: 4px;

@@ -20,3 +20,14 @@
     color: var(--boz-reng);
     font-weight: 700 ;
 }
+
+@media(max-width:576px) {
+  .zombie_lap_birinci h1 {
+    font-size: 35px;
+  }
+}
+@media(max-width:320px) {
+  .zombie_lap_birinci h1 {
+    font-size: 30px;
+  }
+}

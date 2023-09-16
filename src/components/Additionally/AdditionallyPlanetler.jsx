@@ -36,11 +36,15 @@ const AdditionallyPlanetler = () => {
             spaceBetween: 20,
           },
           562: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 40,
           },
           768: {
-            slidesPerView: 5,
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
+          991: {
+            slidesPerView: 1,
             spaceBetween: 50,
           },
           1024: {
