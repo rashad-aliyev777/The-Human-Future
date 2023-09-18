@@ -48,3 +48,42 @@
     border-radius: 15px;
     background: linear-gradient(to right, #2b5876, #4e4376);
 }
+
+@media(max-width:991px) {
+    .planetsss {
+        display: flex;
+        flex-direction: column;
+    }
+    .saturn_yazilar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:768px) {
+   .saturn_melumat {
+    display: none;
+   }
+}
+@media(max-width:576px) {
+    .saturn_yazilar h1 {
+        font-size: 30px;
+    }
+    .saturn_yazilar p {
+        font-size: 20px;
+    }
+ } 
+ @media(max-width:390px) {
+    .saturn_yazilar td {
+        padding: 14px ;
+    }
+ } 
+ @media(max-width:320px) {
+    .saturn_yazilar table {
+        margin-top: 0;
+    }
+    .saturn_yazilar td {
+        padding: 2px ;
+    }
+ }

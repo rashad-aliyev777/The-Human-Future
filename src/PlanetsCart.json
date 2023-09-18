@@ -1,0 +1,32 @@
+[
+    {
+        "id":"saturn",
+        "cardSekil":"https://res.cloudinary.com/do88jgq2l/image/upload/v1694946660/saturn_h6ls1p.png",
+        "cardYazi": "Saturn"
+    },
+    {
+        "id":"yupiter",
+        "cardSekil":"https://res.cloudinary.com/do88jgq2l/image/upload/v1694946660/yupiter_zu1aes.png",
+        "cardYazi": "Yupiter"
+    },
+    {
+        "id":"mercury",
+        "cardSekil":"https://res.cloudinary.com/do88jgq2l/image/upload/v1694946660/mercury_nti6x3.png",
+        "cardYazi": "Mercury"
+    },
+    {
+        "id":"venera",
+        "cardSekil":"https://res.cloudinary.com/do88jgq2l/image/upload/v1694946660/venera_vb3afl.png",
+        "cardYazi": "Venera"
+    },
+    {
+        "id":"uran",
+        "cardSekil":"https://res.cloudinary.com/do88jgq2l/image/upload/v1694946660/uran_ibyrux.png",
+        "cardYazi": "Uran"
+    },
+    {
+        "id":"neptun",
+        "cardSekil":"https://res.cloudinary.com/do88jgq2l/image/upload/v1694946660/neptun_bx2rsj.png",
+        "cardYazi": "Neptune"
+    }
+]

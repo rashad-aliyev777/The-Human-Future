@@ -8,7 +8,7 @@ import Aos from 'aos'
 const Planets3 = () => {
     Aos.init();
     return (
-        <div className='yupiter'>
+        <div className='yupiter' id='yupiter'>
             <div className="yupiter_sol" data-aos="zoom-out-right">
                 <img src={yupiter} alt="Planets" />
             </div>

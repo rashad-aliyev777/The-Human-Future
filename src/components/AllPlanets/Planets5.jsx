@@ -8,7 +8,7 @@ import venera from '../../assets/images/planets/venera.png'
 const Planets5 = () => {
     Aos.init();
   return (
-    <div className='venera'>
+    <div className='venera' id='venera'>
         <div className="venera_sol" data-aos="zoom-in-right">
             <img src={venera} alt="Planets" />
         </div>

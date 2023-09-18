@@ -47,3 +47,65 @@ flex: 1;
     border-radius: 15px;
     background: linear-gradient(to right, #2b5876, #4e4376);
 }
+
+@media(max-width:1114px) {
+    .neptun_sol {
+        flex-basis: 30%;
+    }
+    .neptun_sag td {
+        padding: 15px;
+    }
+}
+@media(max-width:884px) {
+    .neptun {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .neptun_sol img {
+        width: 40%;
+        height: auto;
+    }
+}
+@media(max-width:768px) {
+    .neptun_sol {
+        display: none;
+    }
+    .neptun_sag {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media(max-width:390px) {
+    .neptun_sag p {
+        font-size: 22px;
+    }
+    .neptun_sag td {
+        padding: 10px;
+    }
+}
+@media(max-width:360px) {
+    .neptun_sag p {
+        font-size: 20px;
+    }
+    .neptun_sag td {
+        padding: 5px;
+    }
+}
+@media(max-width:320px) {
+    .neptun_sag h1 {
+        font-size: 25px;
+    }
+    .neptun_sag p {
+        font-size: 16px;
+    }
+    .neptun_sag table {
+        margin-top: 0;
+    }
+    .neptun_sag td {
+        padding: 2px;
+    }
+}

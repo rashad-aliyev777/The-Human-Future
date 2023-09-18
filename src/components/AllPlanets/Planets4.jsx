@@ -7,7 +7,7 @@ import Aos from 'aos'
 const Planets4 = () => {
     Aos.init();
   return (
-    <div className='mercury'>
+    <div className='mercury' id='mercury'>
         <div className="mercury_sol" data-aos="zoom-in-right">
             <img src={mercury} alt="" />
         </div>

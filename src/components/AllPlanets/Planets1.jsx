@@ -14,6 +14,7 @@ import PlanetsCard from './PlanetsCard';
 
 
 
+
 const Planets1 = () => {
     Aos.init();
   return (

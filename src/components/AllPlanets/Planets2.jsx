@@ -9,7 +9,7 @@ import Aos from 'aos'
 const Planets2 = () => {
   Aos.init();
   return (
-    <div className='planetsss'>
+    <div className='planetsss' id='saturn'>
         <div className="saturn_melumat" data-aos="zoom-in-right">
           <img src={saturn} alt="Planets" />
         </div>

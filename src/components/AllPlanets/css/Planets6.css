@@ -47,3 +47,65 @@ flex: 1;
     border-radius: 15px;
     background: linear-gradient(to right, #2b5876, #4e4376);
 }
+
+@media(max-width:1114px) {
+    .uran_sol {
+        flex-basis: 30%;
+    }
+    .uran_sag td {
+        padding: 15px;
+    }
+}
+@media(max-width:884px) {
+    .uran {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .uran_sol img {
+        width: 50%;
+        height: auto;
+    }
+}
+@media(max-width:768px) {
+    .uran_sol {
+        display: none;
+    }
+    .uran_sag {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media(max-width:390px) {
+    .uran_sag p {
+        font-size: 22px;
+    }
+    .uran_sag td {
+        padding: 10px;
+    }
+}
+@media(max-width:360px) {
+    .uran_sag p {
+        font-size: 20px;
+    }
+    .uran_sag td {
+        padding: 5px;
+    }
+}
+@media(max-width:320px) {
+    .uran_sag h1 {
+        font-size: 25px;
+    }
+    .uran_sag p {
+        font-size: 16px;
+    }
+    .uran_sag table {
+        margin-top: 0;
+    }
+    .uran_sag td {
+        padding: 2px;
+    }
+}

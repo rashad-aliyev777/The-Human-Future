@@ -47,3 +47,67 @@ flex: 1;
     border-radius: 15px;
     background: linear-gradient(to right, #2b5876, #4e4376);
 }
+
+@media(max-width:1114px) {
+    .venera_sol {
+        flex-basis: 30%;
+        }
+}
+@media(max-width:991px) {
+    .venera {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .venera_sol img {
+        width: 45%;
+        height: auto;
+    }
+}
+@media(max-width:768px) {
+    .venera_sol {
+        display: none;
+    }
+    .venera_sag {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media(max-width:576px) {
+    .venera_sag td  {
+        padding: 15px;
+    }
+}
+@media(max-width:395px) {
+    .venera_sag h1 {
+        font-size: 30px;
+    }
+    .venera_sag p {
+        font-size: 20px;
+    }
+}
+@media(max-width:360px) {
+    .venera_sag table {
+        margin-top: 0;
+    }
+    .venera_sag td {
+        padding: 13px;
+    }
+}
+@media(max-width:320px) {
+    .venera_sag table {
+        margin-top: 0;
+    }
+    .venera_sag h1 {
+        font-size: 25px;
+    }
+    .venera_sag p {
+        font-size: 17px;
+    }
+    .venera_sag td {
+        padding: 5px;
+    }
+}

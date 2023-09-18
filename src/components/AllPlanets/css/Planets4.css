@@ -47,3 +47,73 @@ flex: 1;
     border-radius: 15px;
     background: linear-gradient(to right, #2b5876, #4e4376);
 }
+@media(max-width:1114px){
+    .mercury table {
+        margin-top: 15px;
+    }
+    .mercury_sag h1 {
+        margin: 0;
+    }
+    .mercury_sag p {
+        margin: 5px;
+    }
+    .mercury_sol {
+        flex-basis: 30%;
+    }
+    .mercury_sag {
+        flex: 1;
+    }
+}
+@media(max-width:991px) {
+    .mercury {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mercury_sol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mercury_sag {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mercury_sol img {
+        width: 50%;
+        height: auto;
+    }
+}
+@media(max-width:768px) {
+    .mercury_sol {
+        display: none;
+    }
+}
+@media(max-width:576px) {
+    .mercury td {
+        padding: 10px;    
+    }
+}
+@media(max-width:360px) {
+    .mercury_sag h1 {
+        font-size:24px ;
+    }
+    .mercury_sag p {
+        font-size: 20px;
+    }
+}
+@media(max-width:320px)  {
+    .mercury table {
+        margin-top: 0;
+    }
+    .mercury_sag p {
+        font-size: 18px;
+    }
+    .mercury td {
+        padding: 2px;    
+    }
+}

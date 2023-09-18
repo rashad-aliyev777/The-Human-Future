@@ -180,3 +180,9 @@
         transform: scale(1.1);
     }
 }
+@media(max-width:320px) {
+    .fa-bars {
+        padding: 15px;
+    }
+
+}

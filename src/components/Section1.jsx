@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 
 import 'animate.css'
@@ -12,12 +12,19 @@ import Button from "./Button"
 import sectionVideosu from "../assets/videos/background_video.mp4"
 
 const Section1 = () => {
+
+  const[hamisiniGoster,setHamisiniGoster] = useState(false)
+
+  const kliklemek =()=>{
+    setHamisiniGoster(true)
+  }
+
   return (
 
     <>
     <div className="section_bir">
 
-     <video src={sectionVideosu} typeof='video/mp4' autoPlay muted loop></video>
+     <video src={sectionVideosu} type='video/mp4' autoPlay muted loop></video>
         
     <div className="yazilar">
         <h1 className='animate__animated animate__fadeIn animate__infinite'>Planets</h1>
@@ -32,7 +39,7 @@ const Section1 = () => {
     
     <div className="umumi-planetler">
       <h2>Planets live information</h2>
-      <Button buttonunİcindekiYazi="Click" umumiPlanetlerMelumati={<AllPlanets />} />
+      <Button onClick={kliklemek} buttonunİcindekiYazi="Click" />
     </div>
 
     </div>

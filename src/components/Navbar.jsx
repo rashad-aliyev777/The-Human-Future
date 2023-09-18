@@ -1,4 +1,4 @@
-import React,{useRef} from 'react'
+import React,{useRef,useState} from 'react'
 
 import headerSekili from '../assets/images/header logo/diamond777.png'
 
@@ -8,6 +8,7 @@ import { GiCrossedSwords } from "react-icons/gi";
 
 
 import Button from './Button'
+import Login from './Login_Registration/Login';
 import './css/Normalize.css'
 import './css/Navbar.css'
 import './css/Button.css'
@@ -24,6 +25,13 @@ const Navbar = () => {
     }
     const overlayiBagla = () => {
         overlayDivi.current.classList.remove('active')
+    }
+
+
+    const [loginiGorset,setLoginiGorset] = useState(false)
+
+    const loginButton = ()=>{
+        setLoginiGorset(true)
     }
 
   return (
@@ -65,7 +73,7 @@ const Navbar = () => {
    
 
     <div className="header-buttonlar">
-    <Button buttonunİcindekiYazi="Login" />
+    <Button onClick={loginButton} buttonunİcindekiYazi="Login" />
     <Button buttonunİcindekiYazi="Registration"/>
     </div>
 
