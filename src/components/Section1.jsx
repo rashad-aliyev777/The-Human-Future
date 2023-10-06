@@ -8,7 +8,7 @@ import Button from "./Button"
 
 import AllPlanets from '../pages/AllPlanets';
 
-import sectionVideosu from "../assets/videos/background_video.mp4"
+import sectionVideosu from "../assets/videos/background_video_1.mp4"
 
 const Section1 = () => {
 
