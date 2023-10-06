@@ -1,22 +1,21 @@
-import React,{useState} from 'react'
+import React,{useState,useRef} from 'react'
 
+import { Link, useNavigate } from 'react-router-dom';
 
-import 'animate.css'
 import './css/Section1.css'
 import "./css/Navbar.css"
-
-import AllPlanets from '../pages/AllPlanets'
 import Button from "./Button"
 
+import AllPlanets from '../pages/AllPlanets';
 
 import sectionVideosu from "../assets/videos/background_video.mp4"
 
 const Section1 = () => {
 
-  const[hamisiniGoster,setHamisiniGoster] = useState(false)
 
-  const kliklemek =()=>{
-    setHamisiniGoster(true)
+  const navigate = useNavigate()
+  const planetsButton = () => {
+    navigate.push('./AllPlanets');
   }
 
   return (
@@ -39,7 +38,7 @@ const Section1 = () => {
     
     <div className="umumi-planetler">
       <h2>Planets live information</h2>
-      <Button onClick={kliklemek} buttonunİcindekiYazi="Click" />
+      <Link to="/allplanetsclick"><Button buttonunİcindekiYazi="Click" /></Link>
     </div>
 
     </div>

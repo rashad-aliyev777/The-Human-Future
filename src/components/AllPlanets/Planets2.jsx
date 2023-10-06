@@ -2,7 +2,6 @@ import React from 'react'
 
 import './css/Planets2.css'
 
-
 import saturn from '../../assets/images/planets/saturn.png'
 import Aos from 'aos'
 

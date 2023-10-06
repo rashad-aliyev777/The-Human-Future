@@ -1,3 +1,4 @@
+
 .form_main {
     width: 280px;
     display: flex;
@@ -8,8 +9,12 @@
     padding: 30px 30px 30px 30px;
     border-radius: 30px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
+    position: absolute;
+    z-index: 99999999;
+    top: 20%;
+    left: 40%;
+    transition: all 0.8s ease;
   }
-  
   .heading {
     font-size: 2.5em;
     color: #2e2e2e;
@@ -116,9 +121,4 @@
     border-radius: 20px;
   }  
 
-  .login {
-    position: relative;
-    background-color: none;
-    width: 100%;
-    height: 100%;
-  }
+  

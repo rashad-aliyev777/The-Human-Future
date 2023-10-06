@@ -1,4 +1,4 @@
-import React,{useRef,useState} from 'react'
+import React,{useRef,useState,useEffect} from 'react'
 
 import headerSekili from '../assets/images/header logo/diamond777.png'
 
@@ -12,11 +12,15 @@ import Login from './Login_Registration/Login';
 import './css/Normalize.css'
 import './css/Navbar.css'
 import './css/Button.css'
+import Registration from './Login_Registration/Registration';
 
 
 
 
 const Navbar = () => {
+
+    const [loginFormu,setLoginFormu] = useState(false) ;
+    const [regisFormu,setRegisFormu] = useState(false) ;
 
     const overlayDivi = useRef()
 
@@ -27,12 +31,13 @@ const Navbar = () => {
         overlayDivi.current.classList.remove('active')
     }
 
+   const loginiAc =() => {
+    setLoginFormu(true)
+   }
 
-    const [loginiGorset,setLoginiGorset] = useState(false)
-
-    const loginButton = ()=>{
-        setLoginiGorset(true)
-    }
+   const registrasiyaAc = () => {
+    setRegisFormu(true)
+   }
 
   return (
 
@@ -73,15 +78,16 @@ const Navbar = () => {
    
 
     <div className="header-buttonlar">
-    <Button onClick={loginButton} buttonunİcindekiYazi="Login" />
-    <Button buttonunİcindekiYazi="Registration"/>
+    <Link onClick={loginiAc}><Button buttonunİcindekiYazi="Login" /></Link>
+    {loginFormu && <Login />}
+    <Link onClick={registrasiyaAc}><Button buttonunİcindekiYazi="Registration"/></Link>
+    {/* {regisFormu && <Registration />} */}
     </div>
 
     <button onClick={overlayiAc} className='fa-bars'><FaBars /></button>
     
-
-
 </div>  
+
 </>
    )
 }

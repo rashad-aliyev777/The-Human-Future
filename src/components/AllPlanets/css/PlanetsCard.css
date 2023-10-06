@@ -48,11 +48,11 @@
     width: 50%;
     height: auto;
    }
-   .card .title {
+   .card .paraqraf {
     font-weight: bold;
     letter-spacing: .1em;
    }
-   .title {
+   .paraqraf {
     margin: 30px;
    }
    /*Hover*/

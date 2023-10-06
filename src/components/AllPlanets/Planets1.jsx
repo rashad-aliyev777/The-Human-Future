@@ -9,20 +9,17 @@ import veneraCard from '../../assets/images/planets/venera.png'
 import uranCard from '../../assets/images/planets/uran.png'
 import neptunCard from '../../assets/images/planets/neptun.png'
 
-import Aos from 'aos'
 import PlanetsCard from './PlanetsCard';
-
-
-
+import { Link } from 'react-router-dom'
+import Button from '../Button'
 
 const Planets1 = () => {
-    Aos.init();
   return (
     
     <div className="planetss">
         <PlanetsCard className='sekiller_eyni kart' planetlerinSekili={saturnCard} paraqrafinIicindekiYazi="Saturn" />
         <PlanetsCard planetlerinSekili={yupiterCard} paraqrafinIicindekiYazi="Yupiter" />
-        <PlanetsCard planetlerinSekili={mercuryCard} paraqrafinIicindekiYazi="Mercury" />
+        <PlanetsCard planetlerinSekili={mercuryCard} paraqrafinIicindekiYazi="Mercury"  />
         <PlanetsCard planetlerinSekili={veneraCard} paraqrafinIicindekiYazi="Venera" />
         <PlanetsCard planetlerinSekili={uranCard} paraqrafinIicindekiYazi="Uran" />
         <PlanetsCard planetlerinSekili={neptunCard} paraqrafinIicindekiYazi="Neptune" />
